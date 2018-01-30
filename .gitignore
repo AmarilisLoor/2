@@ -1,32 +1,11 @@
-# Prerequisites
-*.d
+#include <iostream>
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+using namespace std;
 
-# Precompiled Headers
-*.gch
-*.pch
+int main() {
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+    cout << "Hola Mundo VIU" << endl;
 
-# Fortran module files
-*.mod
-*.smod
+    return 0;
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+}
